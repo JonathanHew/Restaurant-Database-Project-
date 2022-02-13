@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="175D5FE2-6C34-D729-E4D2-11950F7B04C7" name="Table">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>06F383E9-2DCD-A70D-6747-18B5CCE98183</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tableID" id="D789DC2D-DC25-B5A9-7880-C96FFC4D7336">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>0A593457-FE80-9293-B454-01A443651691</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tableSeats" id="FF89DFD1-7D53-3C45-2336-D29B9757DBBF">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>489DF4C0-9916-651C-B1E4-15AE8EC406C8</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F668BA62-D8FD-9086-FDE7-6442E8696450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tableLocation" id="B16ECB50-BF40-05D2-8ADC-70E584DBDE20">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>FE20CA14-B1CC-65B7-CBB0-3DD9986AE32B</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>42F983A7-E17C-3188-D504-7CD490ADE317</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchID" id="7039798E-5D5B-BAA3-E4F2-8A62272FEDFE">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>BCC025DB-8788-9A0E-B9EF-1590A393BBE9</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C46196A3-C93F-5887-287A-1E0FED2FA5F7" referredColumn="A8AEEDF8-E4F2-20FF-247B-056138E388D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04967B8B-D03E-39EC-A37E-5C6CE688332D" name="Table_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>75AC897F-CA56-4564-3CBF-DB6802D831C6</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D789DC2D-DC25-B5A9-7880-C96FFC4D7336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50914BDC-B37F-8F84-E8BA-DB59D0E46A46" name="Table_Branch_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>2217B12D-350A-0834-947B-1CAA4BD6AB92</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7039798E-5D5B-BAA3-E4F2-8A62272FEDFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

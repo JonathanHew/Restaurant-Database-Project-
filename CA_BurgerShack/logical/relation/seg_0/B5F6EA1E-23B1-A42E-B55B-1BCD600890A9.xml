@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GuestBooked" directorySegmentName="seg_0" id="B5F6EA1E-23B1-A42E-B55B-1BCD600890A9">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:32:16 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<sourcePk>88E16C6C-8EEA-DFBA-1BA7-EA08BBABF535</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25FD364A-640D-9DF8-C554-A5F6697214E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9A40E6D-23F2-9B07-ED09-5126BEBC7729</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

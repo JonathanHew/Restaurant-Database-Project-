@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CA_BurgerShack" id="8175E508-5AFF-477E-DA51-E9D586AA7CED" version="3.5">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 16:50:45 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8175E508-5AFF-477E-DA51-E9D586AA7CED</designId>
+</OSDM_Design>

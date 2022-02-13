@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D8BA58E-F3DF-E6FD-47A1-6C200D95705D" name="Staff">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>F2351A1C-E5D3-617B-2E07-4EE971D3511E</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staffID" id="1C790AB0-A3BD-24EB-AB7B-ADD943556ECA">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>A5244291-07C2-CAE1-29CE-FD6C0326763B</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffName" id="790095D9-FBEE-CD53-59B1-4A7631846E97">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>F4F11B9A-3894-EF6C-E34C-7E62D13C87A3</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>79BE3B20-6E21-A5C7-AA0F-622764DFF57D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffAddress" id="730917A1-A14A-D01A-04A1-2B3F047834A6">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>3E312223-6E38-70A4-DD46-E0CE54438588</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FAF1FCD-9BF3-5919-31EC-F7952DBBFFEB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffPhone" id="9A9DC669-AD6B-98D4-1A35-0ACFC19B303B">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>990E84CA-CE60-4AF3-E519-D077BE353A8E</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7C404FA4-EA96-7FFE-A789-A15C847D3FC7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffEmail" id="EE939E2B-ED99-88F3-97F8-6F25241FB23F">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>D0E836BB-0878-81F6-FD0C-85A108739057</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EE4FB2B-D1B3-11B3-E063-9BB43424827A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffDOB" id="0947B546-B98D-199E-4F6F-F1F16F3D7973">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>668EBCAA-315C-B835-44A4-1D9C78335DFC</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CFAFA540-C4B6-484B-07CA-1C99492EC925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffStartDate" id="282EEFE6-46D3-487D-15E1-2B0445B29961">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>99C76592-217C-6A1E-6A35-D9F706A896DB</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CFAFA540-C4B6-484B-07CA-1C99492EC925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchID" id="85A3731A-52FA-AA66-CD8D-04EEC37C7AA0">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>CA99E631-E1CC-ADAD-F946-0B844563F35E</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="420ADF78-F148-0AA9-A9F5-35D6FF412D9A" referredColumn="A8AEEDF8-E4F2-20FF-247B-056138E388D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="811AF45F-08AF-3CC8-02A2-A64B30D1C7D3" name="Staff_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>A0FA7AD6-E266-D8CA-64F5-6F8F48AC9920</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C790AB0-A3BD-24EB-AB7B-ADD943556ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A58EBA66-F49B-780C-5115-621D61C67307" name="Staff_Branch_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>7EE3AD47-221E-3D05-5A33-1D717C692996</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85A3731A-52FA-AA66-CD8D-04EEC37C7AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHECK_staffEmail" directorySegmentName="seg_0" id="7C4491F0-BA94-DA0C-7249-22C812E899BF">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 21:32:19 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<rule><![CDATA[CHECK staffEmail LIKE ('%@burgershack.com')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="420ADF78-F148-0AA9-A9F5-35D6FF412D9A" containerWithKeyObject="7D8BA58E-F3DF-E6FD-47A1-6C200D95705D" localFKIndex="A58EBA66-F49B-780C-5115-621D61C67307" name="Staff_Branch_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>7EE3AD47-221E-3D05-5A33-1D717C692996</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<referredTableLongName>Branch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3C110EC-C87A-A357-FC55-4218E0BE80B7</referredTableID>
+<keyObject>EEBE3F30-4ED0-1CA2-4528-47EADFA20BBC</keyObject>
+<referredKeyID>EEBE3F30-4ED0-1CA2-4528-47EADFA20BBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>branchID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF958522-2C20-C0CE-5095-E4B0EFEDD431" name="Penalty">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>863C8231-BFDE-58A4-5416-E10B2ECB7AEE</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="penaltyID" id="3B408B6F-DE0F-5F48-3833-028058608D92">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>BC6DEAD6-D554-A31D-A068-D5E2D254D299</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penaltyPrice" id="88962D9D-E81E-632B-1EA9-B0DD46951211">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>9388398D-B9BE-4A28-013C-510E56B3CD45</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>27BB1802-F726-C213-DFF5-2709B0BB51E5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_bookingID" id="7A951D87-1FF3-8E14-52D8-12C5A8304A6E">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>1338C47D-72FA-AEA3-281F-AA7ACC987EFA</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD184247-C1F1-BC85-F339-021A6194C1AE" referredColumn="C3ECE904-6F84-5F6F-63CD-4CAA34E9CF8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F29FDE2-78F2-632C-50F2-8D1EF1B147DC" name="Penalty_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>ED6DE4FC-DFE1-710A-4D6A-22A220FC1355</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B408B6F-DE0F-5F48-3833-028058608D92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B27190A-177A-32D5-1BA7-21EE3E14EB8C" name="Penalty_Booking_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>D1CD42F0-914F-82CF-C79C-BEA5C97AEE36</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A951D87-1FF3-8E14-52D8-12C5A8304A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

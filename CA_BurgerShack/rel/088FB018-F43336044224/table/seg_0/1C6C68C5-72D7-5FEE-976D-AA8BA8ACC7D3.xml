@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6C68C5-72D7-5FEE-976D-AA8BA8ACC7D3" name="Manager">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>0A545BD6-96B6-2678-F6C6-B7ECB8C501AD</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="managerID" id="637B0301-324E-A264-4105-0C475A0DECC0">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>13AC8931-3B46-30C5-2410-707E2EF013B8</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_staffID" id="F438E487-220E-BADD-1B68-237CE8276929">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>B3C47273-4879-5B09-69B4-A4730A035F94</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5AFDDAE-EDB6-2972-561F-4D782BD60FF9" referredColumn="1C790AB0-A3BD-24EB-AB7B-ADD943556ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40314AAB-6F2F-892C-CCF6-1EE6A4A8E0B3" name="Manager_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>5A0FD288-5A18-8B19-3DDA-1B36867A509F</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="637B0301-324E-A264-4105-0C475A0DECC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A3C7CCF-E873-0667-3018-3D082011486F" name="Manager_Staff_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>26B6FDC0-63B9-0A83-B03C-BB568DEDD2C3</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F438E487-220E-BADD-1B68-237CE8276929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD184247-C1F1-BC85-F339-021A6194C1AE" containerWithKeyObject="AF958522-2C20-C0CE-5095-E4B0EFEDD431" localFKIndex="8B27190A-177A-32D5-1BA7-21EE3E14EB8C" name="Penalty_Booking_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>D1CD42F0-914F-82CF-C79C-BEA5C97AEE36</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<referredTableLongName>Booking</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86256897-61A7-3405-1D1A-738DC655DE11</referredTableID>
+<keyObject>B5E4F26D-FABF-FD6F-F147-FC9586696DC7</keyObject>
+<referredKeyID>B5E4F26D-FABF-FD6F-F147-FC9586696DC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bookingID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

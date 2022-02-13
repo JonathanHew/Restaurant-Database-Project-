@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33E288C6-6D4C-39A5-B899-E69176E3AB99" name="Customer">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:34:52 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="custID" id="0FDAD0A5-221B-3AFA-DA9D-B1B6B1212E94">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:35:46 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custName" id="6C4664E3-76E4-74AB-494E-EB0A38696C9A">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:36:04 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>79BE3B20-6E21-A5C7-AA0F-622764DFF57D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custAddress" id="BB674040-4B47-6E0B-F0F5-AB6BEE686452">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:36:35 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FAF1FCD-9BF3-5919-31EC-F7952DBBFFEB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custPhone" id="3642A6D8-6502-6B8C-42DE-64371C16670F">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:37:00 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7C404FA4-EA96-7FFE-A789-A15C847D3FC7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custAge" id="764B3808-02D9-6380-A8B8-B66CBD5443A6">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:37:20 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6857EB15-7D38-D070-44AD-26462D002D3E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custEmail" id="358F74A6-3CF2-DC3D-8788-1C173162E57C">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:37:59 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EE4FB2B-D1B3-11B3-E063-9BB43424827A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7AB87C7-EF0D-3986-6696-F54F3AE58F1B" name="Customer_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:35:55 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0FDAD0A5-221B-3AFA-DA9D-B1B6B1212E94</newElementsIDs>
+<usedAttributes>
+<attributeRef>0FDAD0A5-221B-3AFA-DA9D-B1B6B1212E94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

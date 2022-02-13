@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="088FB018-3788-ADCB-1489-F43336044224" mainViewID="E45C44AA-6D8C-5F3D-ACBF-4CE5C48FD7DE">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 16:50:46 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

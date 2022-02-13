@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86256897-61A7-3405-1D1A-738DC655DE11" name="Booking">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>25FD364A-640D-9DF8-C554-A5F6697214E8</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bookingID" id="C3ECE904-6F84-5F6F-63CD-4CAA34E9CF8B">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>486E7911-B8EA-44A6-F8A9-BA423F434CAC</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookingTime" id="DB37715B-1E31-3BFE-84D7-BA57873A36F7">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>CC0ABCBE-50CB-6038-5117-7BF242A518BC</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CFAFA540-C4B6-484B-07CA-1C99492EC925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookingNumPeople" id="6CFF99E4-619D-99F6-9D88-CFDB3AD2AAB9">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>3E72E640-44CC-CCDD-E9AF-6202751A10BF</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F668BA62-D8FD-9086-FDE7-6442E8696450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookingStayDuration" id="D0547821-3E35-FF0A-2C25-7065583F4956">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>2A062FAB-8D65-B70B-738E-DE2C95D7CBFE</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F668BA62-D8FD-9086-FDE7-6442E8696450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookingType" id="9091C304-200F-55F6-A9EC-6755CD684609">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>25DA80E4-290F-B5E3-5C22-8A8AE0CAD62D</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>42F983A7-E17C-3188-D504-7CD490ADE317</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_custID" id="C49F7AC8-9CED-DFE6-B689-61BE8D5CA7D6">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>3EBC9AD1-6902-912D-8EDD-1C9F2EB9E6F4</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="934209B2-1E22-AC43-6C61-96397DBE7623" referredColumn="EC5F71C9-EDA7-3405-9683-F69E545DED9E"/>
+</associations>
+</Column>
+<Column name="Table_tableID" id="45961D76-5D5A-5397-9D5B-72798AF07D11">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>AB70E184-C4A0-CBBB-2862-F5334817E6CC</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5919EEBB-7DDB-9E2E-7DF2-D3A90DDA409C" referredColumn="D789DC2D-DC25-B5A9-7880-C96FFC4D7336"/>
+</associations>
+</Column>
+<Column name="Manager_managerID" id="5031851B-5272-D703-01E3-09E82BE7B49C">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>B1BF1EBD-8768-EFF1-D6D4-FAE34D7685B7</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1AA0A8F-DB92-D077-B7E0-DCB3006E676F" referredColumn="637B0301-324E-A264-4105-0C475A0DECC0"/>
+</associations>
+</Column>
+<Column name="Staff_staffID" id="41930112-F5C4-AC0A-BC49-53ADC465A86B">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>CE618FFD-6C65-E16F-C5A8-3F5132D4F2FE</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC539682-7A6B-BE2E-B1FC-6CB6ED4FF547" referredColumn="1C790AB0-A3BD-24EB-AB7B-ADD943556ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5E4F26D-FABF-FD6F-F147-FC9586696DC7" name="Booking_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>88E16C6C-8EEA-DFBA-1BA7-EA08BBABF535</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3ECE904-6F84-5F6F-63CD-4CAA34E9CF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB8F3B43-B1AC-B978-4A01-1F98F9C47A73" name="Booking_Customer_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>1FD4E5B8-41D5-7BA7-8082-76931800BBD1</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C49F7AC8-9CED-DFE6-B689-61BE8D5CA7D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0CD56FE-4533-748D-C8BE-C3C4A653B70D" name="Booking_Manager_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>0F0853AE-C642-86F6-03A4-96ED8F97551A</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5031851B-5272-D703-01E3-09E82BE7B49C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B45A2F-1AAC-BF81-009F-27596EABD059" name="Booking_Staff_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>B94137CB-58A9-3460-F4E2-87EFB43BB92D</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41930112-F5C4-AC0A-BC49-53ADC465A86B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E92EDAFD-803E-1C9D-B81C-E2625B2FEF6D" name="Booking_Table_FK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 20:28:31 UTC</createdTime>
+<generatorID>F5C6D5EF-B823-86D8-A175-AA9770ADAB8B</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45961D76-5D5A-5397-9D5B-72798AF07D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHECK_bookingNumPeople" directorySegmentName="seg_0" id="233CDE81-A371-61E2-60CF-134BB2F7A65D">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 21:23:21 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<rule><![CDATA[CHECK bookingNumPeople < 6]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CHECK_bookingStayDuration" directorySegmentName="seg_0" id="0FC1B0AB-912E-9487-3DEF-EF56F2EC254B">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 21:25:29 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<rule><![CDATA[CHECK bookingStayDuration < 2]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

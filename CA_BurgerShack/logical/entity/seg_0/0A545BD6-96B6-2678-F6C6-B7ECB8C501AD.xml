@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A545BD6-96B6-2678-F6C6-B7ECB8C501AD" name="Manager">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:04:39 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="managerID" id="13AC8931-3B46-30C5-2410-707E2EF013B8">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:05:03 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffID1" id="B3C47273-4879-5B09-69B4-A4730A035F94">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:33:19 UTC</createdTime>
+<generatorID>26B6FDC0-63B9-0A83-B03C-BB568DEDD2C3</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>A5244291-07C2-CAE1-29CE-FD6C0326763B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A0FD288-5A18-8B19-3DDA-1B36867A509F" name="Manager_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:05:13 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>13AC8931-3B46-30C5-2410-707E2EF013B8</newElementsIDs>
+<usedAttributes>
+<attributeRef>13AC8931-3B46-30C5-2410-707E2EF013B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

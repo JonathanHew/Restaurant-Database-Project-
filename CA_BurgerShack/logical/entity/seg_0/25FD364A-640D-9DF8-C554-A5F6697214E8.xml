@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25FD364A-640D-9DF8-C554-A5F6697214E8" name="Booking">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:39:06 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bookingID" id="486E7911-B8EA-44A6-F8A9-BA423F434CAC">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:39:18 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingTime" id="CC0ABCBE-50CB-6038-5117-7BF242A518BC">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:40:59 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CFAFA540-C4B6-484B-07CA-1C99492EC925</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingNumPeople" id="3E72E640-44CC-CCDD-E9AF-6202751A10BF">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:49:25 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F668BA62-D8FD-9086-FDE7-6442E8696450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingStayDuration" id="2A062FAB-8D65-B70B-738E-DE2C95D7CBFE">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:49:56 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F668BA62-D8FD-9086-FDE7-6442E8696450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingType" id="25DA80E4-290F-B5E3-5C22-8A8AE0CAD62D">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:52:55 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>42F983A7-E17C-3188-D504-7CD490ADE317</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custID1" id="3EBC9AD1-6902-912D-8EDD-1C9F2EB9E6F4">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:17:17 UTC</createdTime>
+<generatorID>1FD4E5B8-41D5-7BA7-8082-76931800BBD1</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>0FDAD0A5-221B-3AFA-DA9D-B1B6B1212E94</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tableID1" id="AB70E184-C4A0-CBBB-2862-F5334817E6CC">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:21:19 UTC</createdTime>
+<generatorID>F5C6D5EF-B823-86D8-A175-AA9770ADAB8B</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>0A593457-FE80-9293-B454-01A443651691</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="managerID1" id="B1BF1EBD-8768-EFF1-D6D4-FAE34D7685B7">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:22:15 UTC</createdTime>
+<generatorID>0F0853AE-C642-86F6-03A4-96ED8F97551A</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>13AC8931-3B46-30C5-2410-707E2EF013B8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffID1" id="CE618FFD-6C65-E16F-C5A8-3F5132D4F2FE">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:23:29 UTC</createdTime>
+<generatorID>B94137CB-58A9-3460-F4E2-87EFB43BB92D</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>A5244291-07C2-CAE1-29CE-FD6C0326763B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88E16C6C-8EEA-DFBA-1BA7-EA08BBABF535" name="Booking_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 17:39:25 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>486E7911-B8EA-44A6-F8A9-BA423F434CAC</newElementsIDs>
+<usedAttributes>
+<attributeRef>486E7911-B8EA-44A6-F8A9-BA423F434CAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

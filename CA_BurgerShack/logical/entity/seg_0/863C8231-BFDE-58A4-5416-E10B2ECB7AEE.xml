@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="863C8231-BFDE-58A4-5416-E10B2ECB7AEE" name="Penalty">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:09:09 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="penaltyID" id="BC6DEAD6-D554-A31D-A068-D5E2D254D299">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:09:35 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penaltyPrice" id="9388398D-B9BE-4A28-013C-510E56B3CD45">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:09:56 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>27BB1802-F726-C213-DFF5-2709B0BB51E5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingID1" id="1338C47D-72FA-AEA3-281F-AA7ACC987EFA">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 19:36:23 UTC</createdTime>
+<generatorID>D1CD42F0-914F-82CF-C79C-BEA5C97AEE36</generatorID>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<referedAttribute>486E7911-B8EA-44A6-F8A9-BA423F434CAC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>513201F6-29D4-F8B2-9401-867D710054AD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED6DE4FC-DFE1-710A-4D6A-22A220FC1355" name="Penalty_PK">
+<createdBy>jonathanhew</createdBy>
+<createdTime>2020-12-01 18:09:39 UTC</createdTime>
+<ownerDesignName>CA_BurgerShack</ownerDesignName>
+<engineerTo>
+<item key="088FB018-3788-ADCB-1489-F43336044224" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BC6DEAD6-D554-A31D-A068-D5E2D254D299</newElementsIDs>
+<usedAttributes>
+<attributeRef>BC6DEAD6-D554-A31D-A068-D5E2D254D299</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
