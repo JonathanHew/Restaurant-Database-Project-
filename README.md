@@ -25,14 +25,18 @@ The question also says that the guests need to have the table they sat on record
 I also had trouble with managers and staff. I was unsure how to corporate a manager and a regular staff member (waiter) to serve each booking. I ended up adding all staff members (including managers) into the staff entity. I then created another entity called Managers, which contained staffID as a foreign key. Only managers were added to this entity. Therefore each manager had both a staffID and a managerID.
 
 # Logical Model Diagram
-![An image](screenshots/Logical.png)
+![An image](Screenshots/Logical.png)
 
 # Relational Model Diagram
-![An image](screenshots/Relational.png)
+![An image](Screenshots/Relational.png)
 
 # Constraints
-![An image](screenshots/Constraint1.png)
-![An image](screenshots/Constraint2.png)
-![An image](screenshots/Constraint3.png)
-![An image](screenshots/Constraint4.png)
-![An image](screenshots/Constraint5.png)
+![An image](Screenshots/Constraint1.png)
+
+![An image](Screenshots/Constraint2.png)
+
+![An image](Screenshots/Constraint3.png)
+
+![An image](Screenshots/Constraint4.png)
+
+![An image](Screenshots/Constraint5.png)
