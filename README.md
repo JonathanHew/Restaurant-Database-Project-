@@ -3,6 +3,8 @@
 # Description
 For this project, I created the database design suited for this restaurant. I undertook logical and physical data modelling to carry this out. I also built the physical database in Oracle which implements my design that I developed, populated it with data and ran complex queries on it.
 
+I have attached the diagrams i created to design this database below. The code to create and query the database can be found in the sql file. 
+
 # Domain Types
 
 | Domain Type Name	| Type Definition	| Reason Introduced	| Example |
